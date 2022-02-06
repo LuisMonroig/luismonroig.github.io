@@ -1,0 +1,64 @@
+/* 
+Colors for the page:
+
+0466c8 0353a4 023e7d 002855 001845 001233 33415c 5c677d 7d8597 979dac 
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  #theHeader {
+    background: #001233;
+    color: white;
+  }
+
+  #theNav {
+    background: #979dac;
+    color: black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+  #theNav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  #theNav li {
+    display: inline;
+    padding: 5px 10px;
+  }
+
+  #theNav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  #theNav li:hover {
+    background: #5c677d;
+  }
+  
+  #theFooter {
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height:50px;
+    background: #001233;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+  }
